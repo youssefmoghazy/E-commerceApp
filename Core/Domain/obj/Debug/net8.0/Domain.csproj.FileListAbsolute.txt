@@ -1,0 +1,13 @@
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/bin/Debug/net8.0/Domain.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/bin/Debug/net8.0/Domain.pdb
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/Domain.pdb
+/home/youssef/RiderProjects/E-commerceApp/Core/Domain/obj/Debug/net8.0/ref/Domain.dll

@@ -1,0 +1,14 @@
+﻿global using AutoMapper;
+global using Domain.Models.Basket;
+global using Shared.SharedTransferObjects.Basket;
+global using Domain.Contracts;
+global using Domain.Exceptions;
+global using ServicesAbstractions;
+global using System.Security.Claims;
+global using Microsoft.IdentityModel.Tokens;
+global using System.Text;
+global using Domain.Models.Identity;
+global using Microsoft.AspNetCore.Identity;
+global using Shared.SharedTransferObjects.Authentication;
+global using System.IdentityModel.Tokens.Jwt;
+global using Microsoft.Extensions.Options;

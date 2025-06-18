@@ -1,0 +1,16 @@
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/bin/Debug/net8.0/ServicesAbstractions.deps.json
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/bin/Debug/net8.0/ServicesAbstractions.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/bin/Debug/net8.0/ServicesAbstractions.pdb
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/bin/Debug/net8.0/Shared.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/bin/Debug/net8.0/Shared.pdb
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.csproj.AssemblyReference.cache
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.GeneratedMSBuildEditorConfig.editorconfig
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.AssemblyInfoInputs.cache
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.AssemblyInfo.cs
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.csproj.CoreCompileInputs.cache
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.sourcelink.json
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.csproj.CopyComplete
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/refint/ServicesAbstractions.dll
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ServicesAbstractions.pdb
+/home/youssef/RiderProjects/E-commerceApp/Core/ServicesAbstractions/obj/Debug/net8.0/ref/ServicesAbstractions.dll
