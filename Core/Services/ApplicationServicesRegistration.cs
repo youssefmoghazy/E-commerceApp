@@ -22,9 +22,13 @@ public static class ApplicationServicesRegistration
         services.AddScoped<IOrderService, OrderService>();
         services.AddScoped<ICacheService, CacheService>();
         services.AddScoped<IPaymentService,PaymentService>();
+        services.AddScoped<IBillingService, BillingService>();
 
         services.AddScoped<Func<IProductService>>(provider => ()
             => provider.GetRequiredService<IProductService>());
+        services.AddScoped<Func<IBillingService>>(provider => ()
+            
+            => provider.GetRequiredService<IBillingService>());
         services.AddScoped<Func<IAuthenticationService>>(provider => ()
             => provider.GetRequiredService<IAuthenticationService>());
         services.AddScoped<Func<IBasketServices>>(provider => ()

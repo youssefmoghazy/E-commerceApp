@@ -22,6 +22,13 @@ internal class OrderProfile : Profile
 
         CreateMap<DeliveryMethod, DeliverymethodResponce>()
             .ForMember(d => d.Cost, o => o.MapFrom(s => s.Price));
+        CreateMap<Address, AddressDTO>()
+            .ForMember(A => A.Country, o => o.MapFrom(s => s.Country))
+            .ForMember(A => A.city, o => o.MapFrom(s => s.City))
+            .ForMember(A => A.street, o => o.MapFrom((s => s.street)))
+            .ForMember(A => A.FirstName, o => o.MapFrom(s => s.FirstName))
+            .ForMember(A => A.LastName, o => o.MapFrom((s => s.LastName)))
+            .ReverseMap();
     }
 }
 internal class OrderItemPictureUrlResolver(IConfiguration configuration)

@@ -5,7 +5,7 @@ using Domain.Models.Product;
 using Microsoft.AspNetCore.Identity;
 using Persistance.Identity;
 
-namespace Persistance
+namespace Persistanc
 {
     public class DbInitializer
         (StoreDbContext context,

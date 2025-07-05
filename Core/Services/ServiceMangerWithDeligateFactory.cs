@@ -7,7 +7,8 @@ public class ServiceMangerWithDeligateFactory(Func<IProductService> productFacto
     Func<IBasketServices> basketFactory,
     Func<IOrderService> orderFactory,
     Func<ICacheService> CacheFactory,
-    Func<IPaymentService> PaymentService)
+    Func<IPaymentService> PaymentService,
+    Func<IBillingService> billingService)
     : IServicesManger
 {
     public IProductService ProductService => productFactory.Invoke();
@@ -20,4 +21,5 @@ public class ServiceMangerWithDeligateFactory(Func<IProductService> productFacto
     public ICacheService cacheService => CacheFactory.Invoke();
 
     public IPaymentService paymentService => PaymentService.Invoke();
+    public IBillingService BillingService => billingService.Invoke();
 }

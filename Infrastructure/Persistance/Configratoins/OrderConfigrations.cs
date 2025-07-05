@@ -8,6 +8,8 @@ public class OrderConfigrations : IEntityTypeConfiguration<Order>
         builder.ToTable("orders");
         builder.Property(d => d.subtotal)
             .HasColumnType("decimal(8,2)");
+        builder.Property(o => o.PaymentIntentId)
+            .IsRequired(false);
         builder.HasMany(o => o.Items)
             .WithOne()
             .OnDelete(DeleteBehavior.Cascade);

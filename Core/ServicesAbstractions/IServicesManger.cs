@@ -8,5 +8,5 @@ public interface IServicesManger
     IOrderService OrderService { get;}
     ICacheService cacheService { get;}
     IPaymentService paymentService { get;}
-
+    IBillingService BillingService { get;}
 }

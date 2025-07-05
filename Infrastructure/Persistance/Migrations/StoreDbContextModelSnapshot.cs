@@ -67,7 +67,6 @@ namespace Persistance.Migrations
                         .HasColumnType("datetimeoffset");
 
                     b.Property<string>("PaymentIntentId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<byte>("Status")

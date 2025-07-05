@@ -2,12 +2,13 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Persistanc;
 using Persistance.Identity;
 using Persistance.Repositories;
 using StackExchange.Redis;
 
 namespace Persistance;
-
+ 
 public static class InfrastructtureServiceRegistration
 {
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configration)

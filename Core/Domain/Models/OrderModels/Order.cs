@@ -11,7 +11,7 @@ public class Order : BaseEntity<Guid>
         decimal subtotal, string paymentIntentId)
     {
         BuyerEmail = email;
-        Items = items;
+        Items = items.ToList();
         ShipToAddress = address;
         DeliveryMethod = deliveryMethod;
         this.subtotal = subtotal;
@@ -21,7 +21,8 @@ public class Order : BaseEntity<Guid>
     //id
     public string BuyerEmail { get; set; } = default!;
     public DateTimeOffset OrderDate { get; set; } = DateTimeOffset.Now;
-    public IEnumerable<OrderItem> Items { get; set; } = [];
+    public ICollection<OrderItem> Items { get; set; } = new List<OrderItem>();
+
     public OrderAddress ShipToAddress { get; set; } = default!;
     public DeliveryMethod DeliveryMethod { get; set; } = default!;
     public int DeliverymethodId { get; set; }

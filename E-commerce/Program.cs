@@ -51,12 +51,12 @@ namespace E_commerce
 
                 });
             }
+            app.UseCors("AllowAll");
 
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseStaticFiles();
-            app.UseCors("AllowAll");
 
             app.MapControllers();
 

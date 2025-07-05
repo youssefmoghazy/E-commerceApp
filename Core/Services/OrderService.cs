@@ -15,11 +15,8 @@ public class OrderService (IMapper mapper, IUnitOFWork unitOFWork,IBasketReposit
         var basket = await basketRepository.GetAsync(request.BasketId)??
             throw new BasketNotFoundExeption(request.BasketId);
 
-        ArgumentNullException.ThrowIfNull(basket.PaymentIntentId);
-
 
         var orderRepo = unitOFWork.GetReposistory<Order, Guid>();
-
         var existingOrder = await orderRepo.GetAsynce(new OrderWithPaymentIntentSpecification(basket.PaymentIntentId));
 
         if (existingOrder != null)

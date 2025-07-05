@@ -11,7 +11,6 @@ public class OrdersController(IServicesManger service)
     [HttpPost]
     public async Task<ActionResult<OrderResponce>> CreateAsync (OrderRequest request)
     {
-
         return Ok(await service.OrderService.CreateAsync(request, GetEmailFromToken()));
     }
     /// GetAll
